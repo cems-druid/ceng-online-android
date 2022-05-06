@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_announcement"
+            android:icon="@drawable/ic_announcement"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/ic_assignment"
+            android:title="Assignment" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_class"
+            android:title="Courses"/>
+    </group>
+
+    <item android:title="Messaging">
+        <menu>
+            <item
+                android:id="@+id/nav_messaging"
+                android:icon="@drawable/ic_chat"
+                android:title="Chatting" />
+        </menu>
+    </item>
+
+
+</menu>

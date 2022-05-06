@@ -1,0 +1,30 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginLeft="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/post_text_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/post_auth_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author of post"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/post_text_textview"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

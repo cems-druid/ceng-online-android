@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CengOnline_v1</string>
+    <string name="editText_teacher_login_id">ID</string>
+    <string name="ediText_teacher_login_password">password</string>
+    <string name="button_teacher_login">Login</string>
+    <string name="editText4_teacher_login">Use this part for new teacher account.</string>
+    <string name="editText2_teacher_login_id">ID</string>
+    <string name="ediText3_teacher_login_password">password</string>
+    <string name="button_teacher_create">Create</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_add_edit_course">AddEditCourseActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

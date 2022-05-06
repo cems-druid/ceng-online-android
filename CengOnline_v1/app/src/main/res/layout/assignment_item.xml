@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginLeft="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/assignment_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of assignment"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/assignment_nameofcourse_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assignement course"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/assignment_name_textview"/>
+
+        <TextView
+            android:id="@+id/assignment_duedate_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/assignment_nameofcourse_textview"
+            android:text="Assingment date"/>
+
+        <TextView
+            android:id="@+id/assignment_homework_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/assignment_duedate_textview"
+            android:text="Homework (for) students"
+            android:textAppearance="@style/Theme.AppCompat"
+            android:textSize="12sp"/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
